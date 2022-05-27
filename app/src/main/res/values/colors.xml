@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="color_selected_bottom_nav">#FFFFEE59</color>
+
+    <!-- Bottom tab -->
+    <color name="tab_home">#F44336</color>
+    <color name="tab_cart">#FFEB3B</color>
+    <color name="tab_product">#2196F3</color>
+    <color name="tab_profile">#8BC34A</color>
+
+    <color name="bg_red">#F44336</color>
+    <color name="white">#FFFFFF</color>
+
+    <!--    background-->
+    <color name="bg_gray_light">#A8CFCFCF</color>
+    <color name="bg_white">#FFF</color>
+    <color name="bg_blue_light">#1292F8</color>
+    <color name="bg_green_light">#27D12E</color>
+    <color name="bg_green_light2">#88FF84</color>
+    <color name="bg_black">#000000</color>
+    <color name="bg_black_light">#BF000000</color>
+    <color name="bg_gray_invisible">#BAF4F4F4</color>
+
+    <color name="bg_text_input">#F7F7F7</color>
+
+    <color name="duskYellow">#FFEB3B</color>
+    <color name="lightGrey">#2A2E2E</color>
+
+</resources>

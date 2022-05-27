@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="@color/bg_black"
+        android:text="@string/title_dialog_filter"
+        android:layout_gravity="center_horizontal"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="10dp"/>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/bg_black"
+                android:text="@string/title_product_type"
+                android:padding="5dp"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="20dp">
+                <RadioButton
+                    android:id="@+id/rd_filter_all_product"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_all_product"
+                    android:padding="5dp"
+                    android:layout_marginEnd="5dp"/>
+
+                <RadioButton
+                    android:id="@+id/rd_filter_mobile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_mobile_product"
+                    android:padding="5dp"
+                    android:layout_marginEnd="5dp"/>
+
+                <RadioButton
+                    android:id="@+id/rd_filter_laptop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/text_laptop_product"/>
+            </RadioGroup>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/bg_black"
+            android:text="@string/title_product_price"
+            android:padding="5dp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp">
+
+            <RadioButton
+                android:id="@+id/rd_filter_price_type1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_filter_price_type1"
+                android:padding="5dp"
+                android:layout_marginEnd="5dp"/>
+
+            <RadioButton
+                android:id="@+id/rd_filter_price_type2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_filter_price_type2"
+                android:padding="5dp"
+                android:layout_marginEnd="5dp"/>
+
+            <RadioButton
+                android:id="@+id/rd_filter_price_type3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_filter_price_type3"
+                android:padding="5dp"
+                android:layout_marginEnd="5dp"/>
+
+            <RadioButton
+                android:id="@+id/rd_filter_price_type4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/text_filter_price_type4"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancel_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextButtonColorGreen"
+            android:layout_alignParentStart="true"
+            android:text="@string/text_cancel"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/btn_submit_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextButtonColorGreen"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp"
+            android:text="@string/btn_submit_rating"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

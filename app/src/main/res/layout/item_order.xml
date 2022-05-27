@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bg_white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:padding="3dp">
+        <TextView
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_order_id"
+            android:textColor="@color/bg_black_light"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_order_id"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_order_id_tmp"
+            android:textColor="@color/bg_green_light"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="end"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:padding="3dp">
+        <TextView
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_order_date"
+            android:textColor="@color/bg_black_light"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_order_date"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_order_date_tmp"
+            android:textColor="@color/bg_red"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="end"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:padding="3dp">
+        <TextView
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_order_status"
+            android:textColor="@color/bg_black_light"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_order_status"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_order_status_tmp"
+            android:textColor="@color/bg_black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="end"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:padding="3dp">
+        <TextView
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_order_total"
+            android:textColor="@color/bg_black_light"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_order_total"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_order_total_tmp"
+            android:textColor="@color/bg_red"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="end"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_detail_in_order"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:text="@string/detail"
+            android:textAllCaps="false"
+            android:textAlignment="gravity"
+            android:gravity="end"
+            android:paddingEnd="3dp"
+            android:background="@null"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/bg_blue_light"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,276 @@
+<resources>
+    <string name="app_name">MOLA</string>
+    <string name="app_title1">MO</string>
+    <string name="app_title2">LA </string>
+    <string name="app_title3"> SHOP</string>
+
+
+    <!-- Bottom Tab  -->
+    <string name="tab_home">Home</string>
+    <string name="tab_cart">Giỏ hàng</string>
+    <string name="tab_product">Danh mục</string>
+    <string name="tab_profile">Cá nhân</string>
+    <string name="tab_search">Tìm kiếm</string>
+
+    <!-- Header Nav  -->
+    <string name="nav_header_name">Name</string>
+    <string name="nav_header_email">name@gmail.com</string>
+
+    <!--    toolbar -->
+    <string name="title_toolbar_home">Trang chủ</string>
+    <string name="title_toolbar_product">Danh mục sản phẩm</string>
+    <string name="title_toolbar_search">Tìm kiếm</string>
+    <string name="title_toolbar_cart">Giỏ hàng</string>
+    <string name="title_toolbar_profile">Thông tin cá nhân</string>
+    <string name="title_toolbar_rating_and_comment">Khách hàng nhận xét</string>
+    <string name="toolbar_change_profile_title">Chỉnh sửa thông tin cá nhân</string>
+
+    <!-- Image -->
+    <string name="iamge">image</string>
+    <string name="header_avatar">Avatar</string>
+
+
+    <!-- Fragment text -->
+    <string name="txt_cart">cart fragment</string>
+    <string name="txt_search">search fragment</string>
+    <string name="txt_profile">profile fragment</string>
+    <string name="txt_product">product fragment</string>
+    <string name="txt_all_order">all order fragment</string>
+    <string name="txt_success_order">all order fragment</string>
+    <string name="txt_pending_order">all order fragment</string>
+    <string name="txt_shipping_order">all order fragment</string>
+    <string name="txt_avatar">product fragment</string>
+
+    <!--    In profile fragment-->
+    <string name="txt_title_name">Họ và tên:</string>
+    <string name="txt_title_email">Email: </string>
+    <string name="txt_title_birthday">Ngày sinh:</string>
+    <string name="txt_title_gender">Giới tính:</string>
+    <string name="txt_title_identification_card">Số CMND:</string>
+    <string name="txt_title_address">Địa chỉ:</string>
+    <string name="txt_title_phone_number">Số ĐT:</string>
+    <string name="txt_show_hide_profile">Thông tin cá nhân</string>
+    <string name="male">Nam</string>
+    <string name="female">Nữ</string>
+
+    <string name="txt_add_address">Thêm địa chỉ nhận hàng</string>
+    <string name="txt_change_profile">Chỉnh sửa thông tin cá nhân</string>
+    <string name="txt_change_password">Đổi mật khẩu</string>
+    <string name="icon_next">▷</string>
+
+    <string name="name">Trần Văn Việt</string>
+    <string name="email">viettranvan2k@gmail.com</string>
+    <string name="birthday">02–10–2000</string>
+    <string name="gender">Nam</string>
+    <string name="cmnd">2417701**</string>
+    <string name="address">Đăk Lăk</string>
+    <string name="phone">0394848858</string>
+
+    <string name="text_welcome">Chào mừng bạn đến với MOLA</string>
+    <string name="text_login_now">Đăng nhập ngay</string>
+    <string name="text_logged_name">Ngô Hữu Văn</string>
+    <string name="text_logged_email">huu.van.23tg@gmail.comm</string>
+    <string name="text_logged_member_since">Đăng nhập gần nhất: </string>
+
+    <string name="text_oder_management">Quản lý đơn hàng</string>
+    <string name="text_oder_success">Đơn hàng thành công</string>
+    <string name="text_oder_pending">Đơn hàng đang chờ xử lý</string>
+    <string name="text_oder_shipping">Đơn hàng đang vận chuyển</string>
+
+
+    <!--    in cart fragment-->
+    <string name="title_cart">Giỏ hàng</string>
+    <string name="empty_cart">Giỏ hàng của bạn đang trống</string>
+    <string name="btn_order">Tiến Hành Đặt Hàng</string>
+    <string name="txt_total">Thành tiền:</string>
+    <string name="txt_price">10.000.000 vnd</string>
+
+
+    <!--    in item cart-->
+    <string name="txt_cart_product_name">Ten san pham</string>
+    <string name="txt_cart_product_description">Mo ta san pham</string>
+    <string name="txt_cart_product_price">10.000.000 vnd</string>
+    <string name="txt_minus">-</string>
+    <string name="txt_plus">+</string>
+
+
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="close">X</string>
+    <string name="detail">Chi tiết</string>
+    <string name="detail_order">Chi tiết đơn hàng</string>
+
+    <string name="toolbar_order_management_title">Quản lý đơn hàng</string>
+    <string name="text_product_quantity">Số lượng:</string>
+
+
+
+    <!--  in sign up-->
+    <string name="text_login">Đăng nhập</string>
+    <string name="hint_username">Tên đăng nhập</string>
+    <string name="hint_full_name">Họ và tên</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="text_forgot_password">Quên mật khẩu?</string>
+    <string name="button_sign_in">Đăng nhập</string>
+    <string name="text_sign_up1">Bạn chưa có tài khoản?</string>
+    <string name="text_sign_up2">Đăng ký ngay</string>
+
+    <!--    sign up screen-->
+    <string name="text_sign_up_message">Tạo tài khoản mới</string>
+    <string name="hint_email">email</string>
+    <string name="hint_phone">Số điện thoại</string>
+    <string name="hint_confirm_password">Nhập lại mật khẩu</string>
+    <string name="button_sign_up">Đăng ký</string>
+    <string name="text_sign_up_terms">Bằng cách đăng ký, bạn đồng ý với các <b>điều khoản và điều kiện </b>của chúng tôi</string>
+
+    <!--    forgot password-->
+    <string name="button_send">Gửi</string>
+    <string name="text_forgot_password_title">Bạn quên mật khẩu? đừng lo lắng</string>
+    <string name="text_forgot_password_message">Nhập email của bạn để khôi phục mật khẩu</string>
+    <string name="text_new_password">Nhập mật khẩu mới của bạn</string>
+    <string name="button_confirm">Xác nhận</string>
+    <string name="text_OTP_code">Nhập mã xác nhận gửi về mail</string>
+
+    <!--    change password-->
+    <string name="text_change_password_toolbar">Đổi mật khẩu</string>
+    <string name="sample_email">email@gmail.com</string>
+    <string name="hint_current_password">Mật khẩu hiện tại</string>
+    <string name="hint_new_password">Mật khẩu mới</string>
+
+    <!-- change info-->
+    <string name="button_update">Cập nhật</string>
+
+    <!-- fragment search -->
+    <string name="input_key">Nhập tên sản phẩm bạn muốn tìm kiếm</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="cart">Giỏ hàng</string>
+    <string name="text_title_suggestion">Sản phẩm thịnh hành</string>
+    <string name="text_title_search_keyword">Kết quả tìm kiếm cho: </string>
+
+    <!-- drawable menu -->
+    <string name="home">Trang chính</string>
+    <string name="mobile">Điện thoại</string>
+    <string name="laptop">Laptop</string>
+    <string name="login">Đăng nhập</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="profile">Thông tin cá nhân</string>
+
+    <string name="share">Hỗ trợ</string>
+    <string name="rate">Đánh giá</string>
+    <string name="communicate">Cộng đồng</string>
+    <string name="text_require_login">Bạn chưa đăng nhập, Đăng nhập ngay và trải nghiệm mua sắm cũng MOLA</string>
+
+    <!-- in app rating -->
+    <string name="text_app_rating">Đánh giá ứng dụng</string>
+    <string name="btn_exit_rating">Để sau</string>
+    <string name="btn_submit_rating">Đồng ý</string>
+
+    <!-- dialog address -->
+    <string name="text_dialog_address">Nhập địa chỉ nhận hàng</string>
+
+    <!-- in search fragment -->
+    <string name="text_history_search">Lịch Sử tìm kiếm</string>
+    <string name="text_delete">Xóa</string>
+
+    <string name="text_new_product">Sản phẩm mới nhất</string>
+    <string name="text_description">Mô tả</string>
+    <string name="text_specifications">Thông số kỹ thuật</string>
+    <string name="text_add_to_cart">Thêm vào giỏ hàng</string>
+
+    <string name="mota">OPPO A5 (2020) 128GB là chiếc smartphone mới ra
+        mắt của thương hiệu OPPO nhận nhiệm vụ đánh chiếm phân khúc giá
+        rẻ/tầm trung với rất nhiều điểm nhấn đáng giá.</string>
+
+    <!-- in order -->
+    <string name="text_order_id">ID đơn hàng:</string>
+    <string name="text_order_date">Thời gian đặt:</string>
+    <string name="text_order_status">Trạng thái:</string>
+    <string name="text_order_total">Tổng:</string>
+    <string name="text_status_0">Đang chờ xử lý</string>
+    <string name="text_status_1">Đang giao</string>
+    <string name="text_status_2">Hoàn tất</string>
+    <string name="text_order_empty">Danh sách đơn hàng rỗng</string>
+    <string name="delete_order">Hủy đơn hàng</string>
+
+    <string name="text_order_id_tmp">ORDER001</string>
+    <string name="text_order_date_tmp">11/03/2020 12:15:03</string>
+    <string name="text_order_status_tmp">Hoàn tất</string>
+    <string name="text_order_total_tmp">18.000.000 đ</string>
+
+    <!-- in profile fragment -->
+    <string name="text_sort">Sắp xếp:</string>
+    <string name="text_price_increase">Giá tăng dần</string>
+    <string name="text_price_decrease">Giá giảm dần</string>
+    <string name="text_filter">Lọc</string>
+
+    <!-- in dialog filter -->
+    <string name="title_dialog_filter">Chọn tiêu chí muốn lọc</string>
+    <string name="title_product_type">Loại sản phẩm</string>
+    <string name="title_product_price">Khoảng giá</string>
+    <string name="text_all_product">Toàn bộ</string>
+    <string name="text_mobile_product">Điện thoại</string>
+    <string name="text_laptop_product">Laptop</string>
+    <string name="text_filter_price_type1">Dưới 5 triệu</string>
+    <string name="text_filter_price_type2">5 – 10 triệu</string>
+    <string name="text_filter_price_type3">10 – 20 triệu</string>
+    <string name="text_filter_price_type4">Trên 20 triệu</string>
+    <string name="text_cancel">Hủy</string>
+    <string name="text_filter_by">Lọc theo:</string>
+    <string name="text_no_result_return">Không có kết quả nào phù hợp</string>
+
+    <string name="text_no_rate_and_comment">Chưa có đánh giá nào</string>
+
+
+    <string-array name="sort">
+        <item>Không sắp xếp</item>
+        <item>Giá tăng dần</item>
+        <item>Giá giảm dần</item>
+        <item>Đánh giá</item>
+    </string-array>
+
+    <!-- In product Detail -->
+    <string name="feedback_from_customer">Khách hàng nhận xét</string>
+    <string name="text_show_all">Xem tất cả</string>
+    <string name="text_title_add_rating">Thêm nhận xét</string>
+    <string name="text_input_add_comment">Thêm nhận xét của bạn</string>
+
+
+    <!-- In support screen -->
+    <string name="title_support">Hỗ trợ</string>
+    <string name="title_contact">Nếu bạn có bất cứ thắc mắc gì, vui lòng liên hệ: </string>
+    <string name="school_address">280 An Dương Vương, phường 4, Quận 5, Thành phố Hồ Chí Minh</string>
+    <string name="email_contact">viettranvan2k@gmail.com</string>
+    <string name="phone_contact">(+84) 394848858</string>
+    <string name="message_contact">(+84) 394848858</string>
+
+    <string-array name="list_avatar">
+        <item>avatar_001</item>
+        <item>avatar_002</item>
+        <item>avatar_003</item>
+        <item>avatar_004</item>
+        <item>avatar_005</item>
+        <item>avatar_006</item>
+        <item>avatar_007</item>
+        <item>avatar_008</item>
+        <item>avatar_009</item>
+        <item>avatar_010</item>
+        <item>avatar_011</item>
+        <item>avatar_012</item>
+        <item>avatar_013</item>
+        <item>avatar_014</item>
+        <item>avatar_015</item>
+    </string-array>
+
+    <!-- Splash screen -->
+    <string name="text_welcome_splash">Chào mừng bạn đến với MOLA</string>
+    <string name="btn_goto_login">Đăng nhập ngay</string>
+    <string name="btn_goto_main">Để sau</string>
+
+
+    <string name="text_show_more">Mở rộng</string>
+    <string name="text_show_less">Thu gọn</string>
+
+
+
+
+</resources>

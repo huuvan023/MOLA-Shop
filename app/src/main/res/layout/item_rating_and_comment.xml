@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3">
+
+            <RatingBar
+                android:id="@+id/rtb_in_rating_and_comment"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="5"
+                android:theme="@style/RatingBar" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_date_rate_and_comment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:gravity="end"
+            android:text="@string/text_order_id_tmp"
+            android:textColor="@color/bg_green_light"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_id_user_rating_and_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_order_date"
+        android:textColor="@color/bg_black_light"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tv_comment_rate_and_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gút gút, ve ry gút, ai lai ịt,gút gút, ve ry gút, ai lai ịt,gút gút, ve ry gút, ai lai ịt,gút gút, ve ry gút, ai lai ịt,gút gút, ve ry gút, ai lai ịt"/>
+
+
+</LinearLayout>

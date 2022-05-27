@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_product_order_detail"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/iphone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/img_product_order_detail"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_product_name_order_detail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/app_name"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_product_description_order_detail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/mota"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="16sp"
+                android:lines="2"
+                android:maxLines="2"
+                android:ellipsize="end"
+                />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_product_price_order_detail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/app_name"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_product_price_sale_percent_order_detail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/bg_black"
+                android:textSize="14sp"
+                android:layout_marginStart="5dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_product_price_sale_order_detail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/app_name"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_product_quantity"
+                    android:textSize="20sp"
+                    android:textColor="@color/bg_black_light"
+                    android:layout_marginEnd="5dp"/>
+                <TextView
+                    android:id="@+id/product_quantity_order_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/bg_black_light"
+                    android:layout_marginEnd="5dp"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn_product_detail_order_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="@string/detail"
+                    android:background="@null"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="20sp"
+                    android:textColor="@color/bg_blue_light"
+                    android:textAllCaps="false"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

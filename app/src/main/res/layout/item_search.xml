@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginEnd="10dp"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/value_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/bg_black_light"
+        android:textSize="20sp"
+        android:layout_marginEnd="30dp"
+        android:maxLength="25"
+        />
+
+    <ImageView
+        android:id="@+id/icon_copy_to_search"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/icon_copy_search_18"
+        android:layout_alignParentEnd="true"
+        />
+
+
+</RelativeLayout>

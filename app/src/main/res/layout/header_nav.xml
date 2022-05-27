@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="@color/bg_green_light2"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/header_drawer_logged_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_title1"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/bg_blue_light"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_title2"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/bg_red"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_title3"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/bg_black"
+                android:layout_marginStart="5sp"/>
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/drawer_menu_avatar"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:contentDescription="@string/header_avatar"
+            android:src="@drawable/no_avatar" />
+
+        <TextView
+            android:id="@+id/drawer_menu_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-thin"
+            android:text="@string/nav_header_name"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:id="@+id/drawer_menu_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nav_header_email"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/header_drawer_not_logged_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_title1"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/bg_blue_light"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_title2"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/bg_red"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_title3"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/bg_black"
+                android:layout_marginStart="5sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_require_login"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textSize="12sp"
+            android:textColor="@color/bg_black_light"
+            android:layout_marginBottom="5dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/welcome"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

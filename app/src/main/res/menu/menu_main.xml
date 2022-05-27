@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/baseline_home_black_24"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_mobile"
+            android:icon="@mipmap/icon_mobile"
+            android:title="@string/mobile" />
+
+        <item
+            android:id="@+id/nav_laptop"
+            android:icon="@mipmap/icon_laptop"
+            android:title="@string/laptop" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/profile">
+            <menu>
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@mipmap/icon_login"
+                    android:title="@string/login" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@mipmap/baseline_person_black_24"
+                    android:title="@string/profile" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@mipmap/icon_logout"
+                    android:title="@string/logout" />
+            </menu>
+        </item>
+    </group>
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/communicate">
+            <menu>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/icon_support"
+                    android:title="@string/share" />
+                <item
+                    android:id="@+id/nav_rate"
+                    android:icon="@drawable/icon_rate"
+                    android:title="@string/rate" />
+            </menu>
+        </item>
+
+    </group>
+</menu>
