@@ -3,7 +3,7 @@
 This application will solve problems so that customers can order for themselves phones, laptops, view information of models, ... without going directly to the store.
 
 # Require to build
-- MYSQL
+- ORACLE
 - Node.js
 
 # Installation
